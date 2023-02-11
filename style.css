@@ -1,0 +1,88 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+
+
+body{
+    background-color: #181823;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url(5448674.jpg);
+}
+
+input{
+    display: block;
+    min-width:250px;
+    min-height:37px;
+    max-width: 400px;
+    max-height: 30px;
+    width: 70%;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* img{
+    border: 2px solid black;
+    height: 250px;
+    width: 250px;   
+} */
+
+button{
+    margin-top: 10px;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 15px;
+}
+
+
+#patchCard{
+    margin-top: 10px;
+background-color: aliceblue;
+border: 2px solid black;
+min-width: 300px;
+max-width: 1000px;
+min-height: 80%; ;
+height: 500px;
+border-radius: 0px 20px;
+/* background-image: url(/11740843_4826101.jpg); */
+background-color:#181823;
+ 
+}
+
+#heroImg{
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+#imgDiv{
+    display: flex;
+    justify-content: center;
+}
+
+#status{
+   text-align: center;
+    color: aliceblue;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding-top :5px;
+}
+
+pre{
+    display: inline;
+}
