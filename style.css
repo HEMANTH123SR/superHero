@@ -6,13 +6,17 @@ padding: 0;
 
 
 body{
-    background-color: #181823;
+    /* background-color: #181823; */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     flex-direction: column;
-    background-image: url(5448674.jpg);
+    font-family:sans-serif;
+    color: #03001C;
+    /* font-family: 'Comic Neue', cursive;
+    font-family: 'Lilita One', cursive; */
+    /* background-image: url(5448674.jpg); */
 }
 
 input{
@@ -26,6 +30,7 @@ input{
     border: none;
     text-align: center;
     font-size: 16px;
+    border: 2px solid black;
 }
 
 /* img{
@@ -40,7 +45,8 @@ button{
     height: 40px;
     border-radius: 20px;
     border: 2px solid black;
-    font-size: 15px;
+    font-size: 20px;
+    background-color:#03C988 ;
 }
 
 
@@ -54,15 +60,15 @@ min-height: 80%; ;
 height: 500px;
 border-radius: 0px 20px;
 /* background-image: url(/11740843_4826101.jpg); */
-background-color:#181823;
- 
+background-color:#8DCBE6;
+ text-align: center;
 }
 
 #heroImg{
     margin-top: 10px;
     width: 200px;
     height: 200px;
-    border: 2px solid black;
+    border: 2px solid  #20262E;
 }
 
 #imgDiv{
@@ -72,7 +78,7 @@ background-color:#181823;
 
 #status{
    text-align: center;
-    color: aliceblue;
+   
 }
 
 ul{
@@ -80,9 +86,19 @@ ul{
 }
 
 li{
-    padding-top :5px;
+    padding-top :10px;
+    font-size: 18px;
 }
 
 pre{
     display: inline;
+}
+
+h2{
+    font-size: 21px;
+}
+
+h4{
+    margin-top: 6px;
+    font-size :24px ;
 }
