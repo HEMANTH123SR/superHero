@@ -49,7 +49,7 @@ button{
     font-size: 20px;
     background-color:#03C988 ;
     font-family: 'Rubik', sans-serif;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 
@@ -89,7 +89,7 @@ ul{
 }
 
 li{
-    padding-top :12px;
+    margin-top :10px;
     font-size: 18px;
 }
 
@@ -98,12 +98,12 @@ pre{
 }
 
 h2{
-    margin-top: 12px;
+    margin-top: 20px;
   
     font-size: 22px;
 }
 
 h4{
-    margin-top: 6px;
+    margin-top: 15px;
     font-size :26px ;
 }
